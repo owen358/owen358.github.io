@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'handm/home'
+  root 'handm#home'
   get 'handm/about'
   get 'handm/contact'
   get 'handm/industries'
