@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
   root 'handm#home'
-  get 'handm/about' => 'handm#about'
-  get 'handm/contact'=> 'handm#contact' 
-  get 'handm/industries'=> 'handm#industries'
-  get 'handm/languages'=> 'handm#languages'
-  get 'handm/services'=> 'handm#services'
+  get 'about' => 'handm#about'
+  get 'contact'=> 'handm#contact'
+  get 'industries'=> 'handm#industries'
+  get 'languages'=> 'handm#languages'
+  get 'services'=> 'handm#services'
 
   get 'say/hello'
   get 'say/goodbye'
